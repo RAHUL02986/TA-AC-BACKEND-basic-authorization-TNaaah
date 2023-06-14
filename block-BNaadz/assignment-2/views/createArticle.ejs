@@ -1,0 +1,36 @@
+<% include partials/header %>
+<main>
+  <div>
+    <form action="/articles" method="post" class="mx-5">
+      <input
+        type="text"
+        class="form-control mt-3"
+        name="title"
+        placeholder="Title"
+      />
+      <input
+        type="text"
+        class="form-control mt-3"
+        name="description"
+        placeholder="Description"
+      />
+      <input
+        type="text"
+        class="form-control mt-3"
+        name="tags"
+        placeholder="Tags"
+      />
+      <input
+        type="text"
+        class="form-control mt-3"
+        name="author"
+        placeholder="Author"
+      />
+      <div class="text-center">
+        <button class="btn btn-success mt-3">Add Article</button>
+      </div>
+    </form>
+  </div>
+</main>
+
+<% include partials/footer %>
