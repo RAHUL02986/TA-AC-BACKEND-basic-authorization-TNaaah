@@ -1,0 +1,11 @@
+<% include partials/header %>
+
+<div>
+  <% article.forEach(a=>{%>
+  <h2><%=a.title%></h2>
+  <p><%=a.description%></p>
+  <div><button class="btn btn-success">Show Detail</button></div>
+  <% })%>
+</div>
+
+<% include partials/footer %>

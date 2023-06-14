@@ -1,0 +1,29 @@
+<% include partials/header%>
+<main>
+  <div class="form">
+    <form action="/users/register" method="post">
+      <input
+        type="text"
+        class="form-control mt-3"
+        name="name"
+        placeholder="Enter Your Name"
+      />
+      <input
+        type="email"
+        class="form-control mt-3"
+        name="email"
+        placeholder="Enter Your Email"
+      />
+      <input
+        type="password"
+        class="form-control mt-3"
+        name="password"
+        placeholder="Enter Your Password"
+      />
+      <div class="text-center mt-3">
+        <button class="btn btn-success">Register</button>
+      </div>
+    </form>
+  </div>
+</main>
+<% include partials/footer%>
